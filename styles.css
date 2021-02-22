@@ -51,6 +51,10 @@ header {
   margin-top: -8rem;
 }
 
+#balance h2{
+  color: var(--color-white);
+}
+
 /*Card*/
 .card {
   background: var(--color-white);
