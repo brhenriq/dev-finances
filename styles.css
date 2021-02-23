@@ -221,11 +221,16 @@ table tbody tr td:last-child {
 
   opacity: 0;
   visibility: hidden;
+
+  
+  z-index: 999;
 }
 
 .modal {
   background: var(--color-background);
   padding: 2.4rem;
+  position: relative;
+  z-index: 1;
 }
 
 .modal-overlay.active {
